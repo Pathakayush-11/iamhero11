@@ -1,0 +1,133 @@
+body{
+    background:#050e2d;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:7px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: centre;
+    background:#1b2141;
+    transition:0.5%;
+    z-index: 1000;
+
+}
+header .logo{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5em;
+    font weight:650;
+
+}
+header .nav{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin:12px;
+}
+header ul li a{
+    color:#fff;
+    text-decoration: none;
+    padding:10px 15px;
+    border-radius: 3px;
+
+}
+header ul li a:hover{
+    background: #f02659;
+    color:#050e2d;
+    box-shadow: 0 0 8px #f02659;
+
+}
+/* banner*/
+.banner{
+    position:relative ;
+    width:80%;
+    min-height: 100vh;
+    padding: 0px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .bg{
+    position: relative;
+    
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bg .content{
+ width: 50%;
+ height:80%;
+
+}
+.float{
+    height: 70%;
+    width: 40%;
+    float: right;
+}
+.banner .bg .content h2{
+      font-size:3em;
+      color:#fff;
+      letter-spacing: 1px;
+  }   
+.banner .bg .content p{
+    font-size:1em;
+    color:rgb(80, 212, 245);
+    letter-spacing: 1px;
+  }
+  .banner .bg .content a{
+      display: inline-block;
+      padding:10px 20px;
+      margin:20px 0;
+      border:1px solid #1aeeef;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 4px;
+      color:#fff;
+      letter-spacing: 1px;
+
+  }
+  .banner .bg .content a:hover{
+      background:#f02659;
+      border:none;
+      color:#050e2d;
+    box-sizing: 0 0 10px #f02659;
+  }
+  .banner .bg img{
+      width:330px;
+     
+  }
+  .About{
+      position: relative;
+      width:100px;
+      min-height: 75vh;
+      padding:0px 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .About .contentbx h2{
+      font-size: 2em;
+      font-weight: 500;
+    color:#fff;
+  }
+  .About .contentbx{
+      width:40%;
+      margin:20px;
+  }
+  .About .contentbx p{
+      max-width: 500px;
+      text-align: justify;
+      color:#fff;
+  }
+
+  
